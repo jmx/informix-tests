@@ -1,0 +1,10 @@
+services:
+  informix:
+    image: ibmcom/informix-developer-database
+    environment:
+      LICENSE: accept
+      DB_LOCALE: en_US.utf8
+      CLIENT_LOCALE: en_US.utf8
+      DB_NAME: testdb
+      DB_USER: informix
+      DB_PASS: in4mix
